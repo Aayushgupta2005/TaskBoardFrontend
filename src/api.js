@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://taskboardbackend-cvol.onrender.com/api/tasks",
+  baseURL: "https://taskboardbackend-cvol.onrender.com/api/tasks",
 });
 
 export const fetchTasks = () => API.get("/");
